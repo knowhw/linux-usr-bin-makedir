@@ -1,0 +1,39 @@
+#!/usr/bin/python
+from sys import argv
+from os import mkdir as makedir
+
+import os
+
+
+
+path=[]
+
+push=path.append
+directorys=chr(32).join(argv[1:]).split(chr(47))
+for subdir in directorys:
+	push(subdir)
+	
+	
+	pwd = os.path.join(os.getenv("PWD"), chr(47).join(path))
+	if os.path.exists(pwd):
+		continue
+	else:
+	
+		makedir(subdir); os.chdir(pwd)
+		
+
+		
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+	
+	
+
+
