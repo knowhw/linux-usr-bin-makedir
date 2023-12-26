@@ -44,7 +44,7 @@ chmod +x /usr/bin/makedir
 ## Usage
 ~~~
 cd /home/linux
-makedir documents/works
+makedir documents/works/python
 
 ~~~
 
