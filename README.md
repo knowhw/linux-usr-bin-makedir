@@ -1,0 +1,1 @@
+# linux-usr-bin-makedir
