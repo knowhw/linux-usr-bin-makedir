@@ -45,6 +45,7 @@ chmod +x /usr/bin/makedir
 ~~~
 cd /home/linux
 makedir documents/works
+
 ~~~
 
 
