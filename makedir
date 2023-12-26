@@ -16,7 +16,7 @@ for subdir in directorys:
 	
 	pwd = os.path.join(os.getenv("PWD"), chr(47).join(path))
 	if os.path.exists(pwd):
-		continue
+		os.chdir(pwd)
 	else:
 	
 		makedir(subdir); os.chdir(pwd)
